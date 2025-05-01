@@ -52,7 +52,7 @@ printf("Cidade:\n %s",&Cidade);
 printf("Populacao: \n %i ",&Populacao);
 printf("Area: \n %f", &Area);
 printf("PIB: \n %f", &PIB);
-printf("Pontos Turisticos: \n %i", &Turisticos);
+printf("Pontos Turisticos:\n %i", &Turisticos);
 
 
     return 0;
