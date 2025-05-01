@@ -45,7 +45,15 @@ scanf("%i", &Turisticos);
 
 
 //Impressão dos dados coletados da carta1
+printf("Carta1\n");
 printf("Estado:\n %s",&Estado);
+printf("Codigo:\n %s",%Codigo);
+printf("Cidade:\n %s",&Cidade);
+printf("Populacao: \n %i ",&Populacao);
+printf("Area: \n %f", &Area);
+printf("PIB: \n %f", &PIB);
+printf("Pontos Turisticos: \n %i", &Turisticos);
+
 
     return 0;
 }
