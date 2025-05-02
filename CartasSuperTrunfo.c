@@ -29,7 +29,8 @@ int main() {
 
 printf("Carta1\n"); //numero da carta para indentificação 
 printf("Digite o estado:\n"); //impressão da interação com o usuario para entrada de dados
-scanf("%s", &Estado);//entrada de dados para imprimir o string de char estado. 
+fgets(Estado, 50, stdin);// acrescenta espaçp 
+     
 printf("Codigo da carta:\n");
 scanf("%s", &Codigo);
 printf("Digite a cidade:\n");
