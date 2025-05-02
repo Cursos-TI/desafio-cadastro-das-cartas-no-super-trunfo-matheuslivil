@@ -19,7 +19,7 @@ int main() {
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
     char Carta1;
-    char Estado [40];
+    char Estado [50];
     char Codigo[10];
     char Cidade [50];
     int Populacao;
@@ -33,7 +33,7 @@ scanf("%s", &Estado);//entrada de dados para imprimir o string de char estado.
 printf("Codigo da carta:\n");
 scanf("%s", &Codigo);
 printf("Digite a cidade:\n");
-scanf("%s",&Cidade);
+scanf("%s", &Cidade);
 printf("Informe a populacao da cidade:\n");
 scanf("%i", &Populacao);
 printf("Informe a area:\n");
@@ -42,17 +42,19 @@ printf("Informe o PIB da cidade:\n");
 scanf("%f", &PIB);
 printf("Informe a quantidade de pontos turisticos\n");
 scanf("%i", &Turisticos);
+printf("\n");
 
-
-//Impressão dos dados coletados da carta1
+/*Impressão dos dados coletados da carta1*/
 printf("Carta1\n");
-printf("Estado:\n %s",&Estado);
-printf("Codigo:\n %s",%Codigo);
-printf("Cidade:\n %s",&Cidade);
-printf("Populacao: \n %i ",&Populacao);
-printf("Area: \n %f", &Area);
-printf("PIB: \n %f", &PIB);
-printf("Pontos Turisticos:\n %i", &Turisticos);
+printf("Estado:%s \n",&Estado);
+printf("Codigo:%s \n", &Codigo);
+printf("Cidade:%s\n", &Cidade);
+printf("Populacao:%i\n",&Populacao);
+printf("Area:%f\n", &Area);
+printf("PIB:%f\n", &PIB);
+printf("Pontos Turisticos:%i\n", &Turisticos);
+
+
 
 
     return 0;
