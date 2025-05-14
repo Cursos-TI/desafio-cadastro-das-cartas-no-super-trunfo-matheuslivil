@@ -89,6 +89,9 @@ printf("Digite a cidade:\n");
 fgets(Cidade2, 50, stdin);
 
 printf("Digite a população: \n");
+scanf(" %i", Populacao2);
+
+
 
 
 
