@@ -24,16 +24,17 @@ int main() {
     char Codigo [30];
     char Cidade [50];
     int Populacao;
-    float Area;
-    float PIB;
+    float Area; 
+    double PIB;
     int Turisticos;
+
 
 printf("Carta1\n"); //numero da carta para indentificação 
 printf("Digite o estado:\n"); //impressão da interação com o usuario para entrada de dados
 fgets (Estado, 100, stdin);// foi utilizado o tipo de dados fgets para acrescentar a funcão de espaco na entrada de dados 
      
 printf("Codigo da carta: \n");
-scanf("%s", Codigo);
+scanf("%s", &Codigo);
 printf("Digite a cidade:\n");
 
 scanf(" %s", Cidade);
@@ -45,12 +46,13 @@ printf("Informe a area:\n");
 scanf("%f", &Area);
 
 printf("Informe o PIB da cidade:\n");
-scanf("%f", &PIB);
+scanf("%d", &PIB);
 
 printf("Informe a quantidade de pontos turisticos\n");
 scanf("%i", &Turisticos);
 
 printf("\n");
+
 
 /*Impressão dos dados coletados da carta1*/
 printf("Carta1\n");
@@ -58,20 +60,20 @@ printf("Estado:%s \n",&Estado);
 printf("Codigo:%s \n", &Codigo);
 printf("Cidade:%s\n", &Cidade);
 printf("Populacao:%i\n",&Populacao);
-printf("Area:%d\n", &Area);
+printf("Area:%f\n", &Area);
 printf("PIB:%d\n", &PIB);
 printf("Pontos Turisticos:%i\n", &Turisticos);
 
 
 //Testando Modularidade
 
-char Carta2;
+    char Carta2;
     char Estado2 [50];
     char Codigo2 [30];
     char Cidade2 [50];
     int Populacao2;
     float Area2;
-    float PIB2;
+    double  PIB2;
     int Turisticos2;
 
 printf("Carta2 \n");
@@ -92,9 +94,23 @@ fgets(Cidade2, 50, stdin);
 printf("Digite a população: \n");
 scanf(" %i", Populacao2);
 
+printf("Digite a area: \n");
+scanf("%f", &Area2);
 
+printf("Digite o PIB: \n");
+scanf("%d", &PIB2);
 
+printf("Digite os pontos turisticos: \n");
+scanf("%i", &Turisticos2);
 
+printf("Carta2\n");
+printf("Estado:%s \n", Estado2);
+printf("Codigo:%s \n", Codigo2);
+printf("Cidade:%s\n", Cidade2);
+printf("Populacao:%f \n", Populacao2);
+printf("Area:%f \n", Area2);
+printf("PIB:%d \n",PIB2);
+printf("Turisticos:%i \n", Turisticos2);
 
 
     return 0;
