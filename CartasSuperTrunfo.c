@@ -40,10 +40,13 @@ scanf(" %s", Cidade);
 
 printf("Informe a populacao da cidade:\n");
 scanf("%i", &Populacao);
+
 printf("Informe a area:\n");
 scanf("%f", &Area);
+
 printf("Informe o PIB da cidade:\n");
 scanf("%f", &PIB);
+
 printf("Informe a quantidade de pontos turisticos\n");
 scanf("%i", &Turisticos);
 
@@ -76,14 +79,12 @@ printf("Carta2 \n");
  getchar();// Consome o '\n' pendente (limpa o espaço pendendo entre uma entrada e outra)
 
 printf("Digite o Estado:\n");
-
-fgets (Estado2, 50, stdin);
-
+fgets (Estado2, 50, stdin); // adiciona até 199 caracteres incluindo espaços a entrada de dados na variavel 
 
 printf("Digite o codigo: \n");
 scanf(" %s", Codigo2);
 
-getchar();
+ getchar();
 
 printf("Digite a cidade:\n");
 fgets(Cidade2, 50, stdin);
